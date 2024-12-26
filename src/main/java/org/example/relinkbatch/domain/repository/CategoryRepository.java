@@ -1,0 +1,7 @@
+package org.example.relinkbatch.domain.repository;
+
+import org.example.relinkbatch.domain.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
